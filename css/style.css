@@ -1,0 +1,145 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #747704;
+    font-weight: 300;
+}
+
+hr {
+    border: solid 1px #bcbbbb;
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 105px;
+    height: 105px;
+}
+
+.text-muted {
+    color: #bcbbbb;
+}
+
+.center-image {
+    margin-bottom: 15px;
+}
+
+.project-header-main {
+    font-weight: 325;
+    text-indent: 8px;
+    font-size: 32px;
+}
+
+.text-thin {
+    font-weight: 200;
+}
+
+.box-logo {
+    margin-top: 10px;
+}
+.title {
+    margin-top: 15px;
+}
+
+.title-super {
+    font-size: 39px;
+
+}
+.title-body {
+    font-size: 19px;
+}
+
+.projects-text {
+    font-size: 29px;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 320px) and (max-width: 991px) {
+    .section-header {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hor-rule {
+        padding: 0;
+    }
+    
+    .box-logo {
+        width: 25%;
+        padding-left: 0;
+    }
+
+    .logo {
+        width: 100%;
+        height: auto;
+        margin-top: 15px;
+    }
+
+    .title {
+        width: 75%;
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    .title-super {
+        margin-top: 15px;
+        margin-bottom: 5px;
+        font-size: 6vw;
+    }
+
+    .title-body {
+        font-size: 3vw;
+        margin: 0;
+    }
+
+
+    .center-image,
+    .images-bottom {
+        padding: 0;
+    }
+
+    .projects-text {
+        font-size: 4.5vw;
+    }
+
+    .project-header-main {
+        padding-left: 0;
+    }
+    .text-muted {
+        font-size: 5vw;
+    }
+
+    p {
+        font-size: 8px;
+    }
+}
+
+@media screen and (min-width: 490px) and (max-width: 991px) {
+    .logo {
+        width: 105px;
+        height: 105px;
+    }
+
+    .title-super {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 991px) {
+    .title-super {
+        font-size: 39px;
+
+    }
+    
+    .title-body {
+        font-size: 19px;
+    }
+
+    .projects-text {
+        font-size: 29px;
+    }
+
+    .text-muted {
+        font-size: 32px;
+    }
+}

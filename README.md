@@ -12,4 +12,6 @@ The site is divided into 3 sections.
 * The middle section has a placeholder image.
 * The featured work section showcases 3 projects with placeholder images.
 
+Link to portfolio site [here](http://asifchoudhury.github.io/FE-Nanodegree-Project-1/).
+
 
